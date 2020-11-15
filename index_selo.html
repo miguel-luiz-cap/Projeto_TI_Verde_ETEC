@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Selo Verde</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
+	<head>
+		<title>Cloud Computing - Cadastro</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="Imagens/icon_113456469774756816e07b1570b0a1f4.ico"/>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
 
-        <form method="GET">
-            <input name="razao_social" type="text" size="20" maxlength="55" autofocus>
+	</head>
+	<body>
+		<div class="etec_ti_verde">
+			<img src="Imagens/etec_gru.png" height="75" style="margin-right: 30%; margin-bottom: 10px;"> 
+			<img src="Imagens/ti_verde2.png" height="100">
+			<img src="Imagens/Centro_Paula_Souza.png" height="75" style="margin-left: 35%; margin-bottom: 10px;"> 
+			
+		</div>
+		
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<h1>Cloud Computing</h1> 
+		<div class="menu">
+			<h3><a href="#oque">O que é</a> | 
+			<a href="index2.html#vantagens">Vantagens</a> | 
+			<a href="index2.html#desvantagens">Desvantagens</a> | 
+			<a href="index_selo.html">Cadastro</a> | 
+			<a href="index_BD.html">Banco de Dados</a> | 
+			<a href="#sobre">Sobre</a></h3>
+		
+		</div>
+		<br/>
+		<form name="seloEmpresa" method="GET">
+			<div class="corpo">   
+				<h2>Cadastro</h2>
+				<p class="center">Prezamos pela preservação do meio ambiente, portanto, estamos dando a oportunidade de sua empresa possuir o selo verde, 
+					no qual indica que sua instituição se importa e age em prol dessa causa. Após o preenchimento dos dados será feita uma verificação 
+					e se tudo estiver correto o selo será atribuido a sua empresa.
+				</p>
+				<p class="center">
+					Razão Social: <input name="razao_social" type="text" size="20" maxlength="55" autofocus>
+					Nome fantasia: <input name="nome_fantasia" type="text" size="20" maxlength="55"><br><br>
+					CNPJ: <input name="cnpj" type="text" size="16" maxlength="14">
+					Endereço da sede: <input name="endereco_sede" type="text" size="20" maxlength="55"><br><br>
+					E-mail: <input name="email" type="email" size="25" maxlength="50">
+					Telefone: <input name="telefone" type="tel" size="15" maxlength="10"><br><br>
+					Ramo de atuação: <input name="ramo_atuacao" type="text" size="25" maxlength="30" placeholder="Informe apenas um">
+					Site da empresa: <input name="site" type="url" size="20" maxlength="30"><br><br>
+					Registro de atividades: <br><textarea name="registro_atividade" type="text" rows="10" cols="50" placeholder="Informe as atividades desenvolvidas pela empresa para ajudar na causa do Meio Ambiente"></textarea><br><br>	   
+				</p>
+			</div>
 
-        </form>
-    </body>
-    </html>
+		<a href="index.html" class="botao_voltar">Cancelar</a> <button class="botao_prox" type="submit">Enviar</button>
+		
+		</form>
+		<br/>
+		<br/>
+		<br/>
+
+	</body>
+</html>
